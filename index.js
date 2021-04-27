@@ -27,8 +27,8 @@ function mapToSquare(sourceArray) {
 }
 
 function reduceToTotal(sourceArray, startingPoint) {
-  return sourceArray.reduce((total,item,startingPoint) => {
-    total -= item;
+  return sourceArray.reduce((total,item) => {
+    total += item;
     return total;
-  });
+  },startingPoint);
 }
