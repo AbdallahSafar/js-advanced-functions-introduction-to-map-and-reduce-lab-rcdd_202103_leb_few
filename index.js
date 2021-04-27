@@ -32,5 +32,3 @@ function reduceToTotal(sourceArray, startingPoint) {
     return total;
   });
 }
-
-
