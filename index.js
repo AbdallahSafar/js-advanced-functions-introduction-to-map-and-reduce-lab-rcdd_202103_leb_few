@@ -32,3 +32,10 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
     return total;
   },startingPoint);
 }
+
+function reduceToAllTrue(sourceArray) {
+  return sourceArray.reduce((total,item) => {
+    total += item;
+    return total;
+  },startingPoint);
+}
