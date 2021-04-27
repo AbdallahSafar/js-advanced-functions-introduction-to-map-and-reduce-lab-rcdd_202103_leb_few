@@ -5,4 +5,7 @@ function mapToNegativize(sourceArray) {
     return item;
   })
 }
-console.log(mapToNegativize([1,2,3]));
+
+function mapToNoChange(sourceArray) {
+  
+}
