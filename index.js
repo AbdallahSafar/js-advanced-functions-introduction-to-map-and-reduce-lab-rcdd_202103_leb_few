@@ -39,5 +39,8 @@ function reduceToAllTrue(sourceArray) {
     if(total) {
       return true;
     }
+    else {
+      return false;
+    }
   },startingPoint);
 }
