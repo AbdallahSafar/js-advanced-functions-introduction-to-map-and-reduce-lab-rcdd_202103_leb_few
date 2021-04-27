@@ -44,3 +44,15 @@ function reduceToAllTrue(sourceArray) {
     }
   });
 }
+
+function reduceToAnyTrue(sourceArray) {
+  return sourceArray.reduce((total,item) => {
+    total += item;
+    if(total !== 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  });
+}
