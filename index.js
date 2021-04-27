@@ -4,3 +4,4 @@ function mapToNegativize(sourceArray) {
     item *= -1;
   })
 }
+console.log(mapToNegativize([1,2,3]));
