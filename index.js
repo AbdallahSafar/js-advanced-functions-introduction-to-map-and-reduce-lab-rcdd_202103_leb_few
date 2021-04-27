@@ -28,6 +28,7 @@ function mapToSquare(sourceArray) {
 
 function reduceToTotal(sourceArray, startingPoint) {
   sourceArray.reduce((total,item) => {
-    return total -= item;
+    total -= item;
+    return total;
   }
 }
