@@ -42,5 +42,5 @@ function reduceToAllTrue(sourceArray) {
     else {
       return false;
     }
-  },startingPoint);
+  });
 }
