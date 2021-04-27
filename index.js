@@ -14,7 +14,14 @@ function mapToNoChange(sourceArray) {
 
 function mapToDouble(sourceArray) {
   return sourceArray.map(item => {
-    item *=2;
+    item *= 2;
+    return item;
+  });
+}
+
+function mapToSquare(sourceArray) {
+  return sourceArray.map(item => {
+    item *= item;
     return item;
   });
 }
