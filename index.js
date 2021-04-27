@@ -36,7 +36,7 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
 function reduceToAllTrue(sourceArray) {
   return sourceArray.reduce((total,item) => {
     total *= item;
-    if(total) {
+    if(total !== 0) {
       return true;
     }
     else {
