@@ -11,3 +11,10 @@ function mapToNoChange(sourceArray) {
     return item;
   });
 }
+
+function mapToDouble(sourceArray) {
+  return sourceArray.map(item => {
+    item *=2;
+    return item;
+  });
+}
